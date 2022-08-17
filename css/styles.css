@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  background-color: #ecf0f1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div{
+  padding: 7% 15%;
+}
+
+.cover-content img{
+  margin: 0;
+  z-index: 2;
+  width: 80px;
+  border: solid;
+  border-radius: 50%;
+  border-color: #ffffff;
+}
+
+.cover-content h3{
+  margin: 0;
+  padding: 0;
+}
+
+.cover-content p{
+  margin: 0;
+  padding: 0;
+  color: #95a5a6;
+  font-size: 0.9rem;
+}
+
+.cover-content{
+  margin: 0;
+}
+
+.about{
+  background-color: #ffffff;
+}
+
+.contact{
+  background-color: #ffffff;
+}
+
+.skills li{
+  list-style: none;
+}
+
+.skills a{
+  display: block;
+  float: left;
+  width: 25%;
+  color: #95a5a6;
+  font-size: 1rem;
+}
+
+.skills p{
+  color: #95a5a6;
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.contact a{
+  display: block;
+  float: left;
+  width: 25%;
+  color: #95a5a6;
+  font-size: 1rem;
+}
+
+.contact li{
+  list-style: none;
+}
+.footer{
+  text-align: center;
+  margin: 0;
+}
+.footer p{
+  color: #95a5a6;
+  font-size: 0.7rem;
+}
