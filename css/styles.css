@@ -50,14 +50,7 @@ div{
   float: left;
   width: 25%;
   color: #95a5a6;
-  font-size: 1rem;
-}
-
-.skills p{
-  color: #95a5a6;
-  display: block;
-  float: left;
-  width: 25%;
+  font-size: 3rem;
 }
 
 .contact a{
@@ -65,7 +58,7 @@ div{
   float: left;
   width: 25%;
   color: #95a5a6;
-  font-size: 1rem;
+  font-size: 3rem;
 }
 
 .contact li{
@@ -78,4 +71,54 @@ div{
 .footer p{
   color: #95a5a6;
   font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .skills li{
+    list-style: none;
+  }
+
+  .skills a{
+    display: block;
+    float: left;
+    width: 25%;
+    color: #95a5a6;
+    font-size: 1rem;
+  }
+
+  .contact a{
+    display: block;
+    float: left;
+    width: 25%;
+    color: #95a5a6;
+    font-size: 1rem;
+  }
+
+  .contact li{
+    list-style: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body{
+    background-color: #ecf0f1;
+  }
+  .contact, .about{
+    background-color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body{
+    background-color: black;
+  }
+  h3{
+    color: #dfe6e9;
+  }
+  p{
+    color: #b2bec3;
+  }
+  .contact, .about{
+    background-color: #0f0f0f;
+  }
 }
