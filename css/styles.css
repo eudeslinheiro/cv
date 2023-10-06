@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-color: #ecf0f1;
+  background-color: #ffab00;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -99,7 +99,7 @@ div{
   }
 }
 
-@media (prefers-color-scheme: light) {
+/*@media (prefers-color-scheme: light) {
   body{
     background-color: #ecf0f1;
   }
@@ -121,4 +121,4 @@ div{
   .contact, .about{
     background-color: #0f0f0f;
   }
-}
+}*/
