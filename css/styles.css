@@ -24,17 +24,6 @@ div{
   margin: 0;
 }
 
-.skills li{
-  list-style: none;
-}
-
-.skills a{
-  display: block;
-  float: left;
-  width: 25%;
-  font-size: 3rem;
-}
-
 .contact a{
   display: block;
   float: left;
@@ -53,7 +42,7 @@ div{
   font-size: 0.7rem;
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
   .skills li{
     list-style: none;
   }
@@ -75,7 +64,7 @@ div{
   .contact li{
     list-style: none;
   }
-}
+}*/
 
 /*@media (prefers-color-scheme: light) {
   body{
