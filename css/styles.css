@@ -24,6 +24,11 @@ div{
   margin: 0;
 }
 
+.about p {
+  
+  font-size: 10rem;
+}
+
 .contact a{
   display: block;
   float: left;
