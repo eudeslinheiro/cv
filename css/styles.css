@@ -2,6 +2,7 @@ body{
   margin: 0;
   background-color: #ffab00;
   font-family: 'Montserrat', sans-serif;
+  color: #0043af;
 }
 
 div{
@@ -16,7 +17,6 @@ div{
 .cover-content p{
   margin: 0;
   padding: 0;
-  color: #0043af;
   font-size: 0.9rem;
 }
 
@@ -32,7 +32,6 @@ div{
   display: block;
   float: left;
   width: 25%;
-  color: #0043af;
   font-size: 3rem;
 }
 
@@ -40,7 +39,6 @@ div{
   display: block;
   float: left;
   width: 25%;
-  color: #0043af;
   font-size: 3rem;
 }
 
@@ -52,7 +50,6 @@ div{
   margin: 0;
 }
 .footer p{
-  color: #0043af;
   font-size: 0.7rem;
 }
 
@@ -65,7 +62,6 @@ div{
     display: block;
     float: left;
     width: 25%;
-    color: #0043af;
     font-size: 1rem;
   }
 
@@ -73,7 +69,6 @@ div{
     display: block;
     float: left;
     width: 25%;
-    color: #0043af;
     font-size: 1rem;
   }
 
