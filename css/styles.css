@@ -24,16 +24,22 @@ div{
   margin: 0;
 }
 
-.footer a{
-  display: block;
+.footer li{
+  list-style: none;
+  display: inline-block;
+  margin: 0%;
+  padding: 0%;
   float: right;
-  width: 5%;
-  font-size: 1rem;
 }
 
 .footer li{
-  list-style: none;
+
+   display: inline-block;
+   width: 25px;
+   min-height: 25px;
+   vertical-align: top;
 }
+
 .footer{
   text-align: center;
   margin: 0;
