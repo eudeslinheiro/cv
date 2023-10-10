@@ -1,27 +1,67 @@
 body{
   margin: 0;
   background-color: #ffab00;
-  font-family: 'Montserrat', sans-serif;
   color: #0043af;
 }
 
-div{
+.flex-container{
   padding: 7% 15%;
+  font-family: 'Bodoni Moda', serif;
 }
+
+
 
 .cover-content h3{
   margin: 0;
   padding: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
 }
 
 .cover-content p{
   margin: 0;
   padding: 0;
+  font-size: 1rem;
+  color: #6e6961;
+  font-family: Helvetica, sans-serif;
 }
 
 .cover-content{
   margin: 0;
+  padding: 1% 15%;
+  overflow: hidden;
+  position: relative;
+}
+
+.cover-content #links{
+  display: none;
+}
+
+.cover-content a {
+  color: #6e6961;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.cover-content a.menu {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.about p {
+  font-family: Helvetica, sans-serif;
+
+}
+
+.decor{
+   background-color: #6e6961;
+   padding: .2% 15%;
+   border-bottom-right-radius: 60%;
+   border-top-left-radius: 60%;
 }
 
 .footer li{
@@ -45,7 +85,43 @@ div{
   margin: 0;
 }
 .footer p{
-  font-size: 1rem;
+  font-size: 0.7rem;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 7% 15%;
+}
+
+.column{
+  flex: 33.33%;
+  max-width: 30%;
+  padding: 0;
+  text-align: center;
+  color: #6e6961;
+  font-family: Helvetica, sans-serif;
+}
+
+.column h3{
+  font-family: 'Bodoni Moda', serif;
+  color: #0043af;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 /*@media only screen and (max-width: 600px) {
@@ -94,4 +170,4 @@ div{
   .contact, .about{
     background-color: #0f0f0f;
   }
-}*/
+};*/
