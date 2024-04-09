@@ -6,7 +6,6 @@ body{
 
 .flex-container{
   padding: 7% 15%;
-  font-family: 'Bodoni Moda', serif;
 }
 
 
@@ -80,36 +79,6 @@ body{
    vertical-align: top;
 }
 
-.footer{
-  text-align: center;
-  margin: 0;
-}
-.footer p{
-  font-size: 0.7rem;
-}
-
-.row{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 7% 15%;
-}
-
-.column{
-  flex: 33.33%;
-  max-width: 30%;
-  padding: 0;
-  text-align: center;
-  color: #6e6961;
-  font-family: Helvetica, sans-serif;
-}
-
-.column h3{
-  font-family: 'Bodoni Moda', serif;
-  color: #0043af;
-}
-
-
-
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
@@ -123,51 +92,3 @@ body{
     max-width: 100%;
   }
 }
-
-/*@media only screen and (max-width: 600px) {
-  .skills li{
-    list-style: none;
-  }
-
-  .skills a{
-    display: block;
-    float: left;
-    width: 25%;
-    font-size: 1rem;
-  }
-
-  .contact a{
-    display: block;
-    float: left;
-    width: 25%;
-    font-size: 1rem;
-  }
-
-  .contact li{
-    list-style: none;
-  }
-}*/
-
-/*@media (prefers-color-scheme: light) {
-  body{
-    background-color: #ecf0f1;
-  }
-  .contact, .about{
-    background-color: #ffffff;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body{
-    background-color: black;
-  }
-  h3{
-    color: #dfe6e9;
-  }
-  p{
-    color: #b2bec3;
-  }
-  .contact, .about{
-    background-color: #0f0f0f;
-  }
-};*/
